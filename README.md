@@ -1,70 +1,243 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Available Scripts
+Modify this file to match your project and remove sections that don't apply.
 
-In the project directory, you can run:
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-### `npm start`
+OPTIONAL SECTIONS:
+- FAQ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After you're finished please remove all the comments and instructions!
+-->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+# 📗 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm run build`
+<!-- PROJECT DESCRIPTION -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📖 [Bookstore] <a name="about-project"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Bookstore* is a website for all book fans. It is a Single Page App (SPA) that allows users to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Display a list of books
+- Add a book
+- Remove a selected book
 
-### `npm run eject`
+## 🛠 Built With <a name="built-with"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech Stack <a name="tech-stack"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">React</a></li>
+    <li><a href="">JS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="">React</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="">API Database services</a></li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Features -->
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[Setup a new React application using Create React App]**
+- **[Create a directory for your reusable components: /components.]**
+- **[Use React Router.]**
+- **[Add 2 routes in your application:
+  - "/", which contains:
+  A book list, where each book has a title and author
+  A form that allows for creating a new book
+  - "/categories"
+  This should display a button that checks for a status]**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- LIVE DEMO -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Analyzing the Bundle Size
+- **Coming soon!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
+
+In order to run this project you need:
+- GitBash installed on your OS 
+- Visual Studio Code or a reliable code editor
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  cd bookstore
+  git clone git@github.com:evillaz/math-magicians.git
+```
+
+### Install
+
+Run this command: 
+
+Example command:
+
+```sh
+  cd bookstore
+  npm install
+```
+
+
+### Usage
+
+Run this command: 
+
+Example command:
+
+```sh
+  cd bookstore
+  npm start
+```
+
+
+### Run tests
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+You can deploy this project using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visual studio code, another realiable code editor or a Web browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Eduardo Villarreal**
+
+- GitHub: [@evillaz](https://github.com/evillaz)
+- Twitter: [@evillazz](https://twitter.com/evillazz)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/eduardo-villarreal-144a8925a)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **[Remove a selected book]**
+- **[Add reducers and actions]**
+- **[Use Redux in React components]**
+- **[Connect to API.]**
+- **[Styling]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project  don't doubt on make any comments or try to reach me out.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<!-- Give credit to everyone who inspired your codebase. -->
+
+I would like to thank microverse for the opportunity on working each other as colleagues and the learning opportunities it brings us.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Did you find hard to create this project?**
+
+  - I tried my best and follow the guidelines to create this project. I got hard times on some of the workflow but i think i just have to keep learning everyday and give my best try every time.
+
+- **What was your thinking process to solve the requirements?**
+
+  - First i tried to address each one of the requirements and solve them individually to keep integrating them as i was progressing.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](/LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
