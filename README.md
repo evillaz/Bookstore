@@ -129,7 +129,7 @@ Example commands:
 
 ```sh
   cd bookstore
-  git clone git@github.com:evillaz/math-magicians.git
+  git clone git@github.com:evillaz/bookstore.git
 ```
 
 ### Install
