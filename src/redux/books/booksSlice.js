@@ -12,8 +12,8 @@ const booksSlice = createSlice({
       count: state.count + 1,
       books: [...state.books, action.payload],
     }),
-    decrement: (state, action) => {
-      const filteredBooks = state.books.filter((book) => book.id === action.payload.id);
+    decrement: (state, { payload }) => {
+      const filteredBooks = state.books.filter((book) => book.id !== payload.id);
       return {
         ...state,
         count: state.count - 1,
