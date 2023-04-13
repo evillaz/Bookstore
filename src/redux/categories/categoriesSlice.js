@@ -6,8 +6,10 @@ const categoriesSlice = createSlice({
     status: 'Under construction',
     categories: [],
   },
-  getMessage: (state) => state.status,
+  reducers: {
+    getMessage: (state, action) => state.status,
+  },
 });
 
-export const { getMessage } = categoriesSlice;
-export default categoriesSlice;
+export const { getMessage } = categoriesSlice.actions;
+export default categoriesSlice.reducer;
