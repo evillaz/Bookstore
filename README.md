@@ -66,7 +66,8 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="">React</a></li>
+    <li><a href="">React</a></li>    
+    <li><a href="">Redux</a></li>
     <li><a href="">JS</a></li>
   </ul>
 </details>
@@ -80,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="">API Database services</a></li>
+    <li><a href="https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739"> Bookstore API</a></li>
   </ul>
 </details>
 
@@ -97,6 +98,10 @@ After you're finished please remove all the comments and instructions!
   A form that allows for creating a new book
   - "/categories"
   This should display a button that checks for a status]**
+- **[Remove a selected book]**
+- **[Add reducers and actions]**
+- **[Use Redux in React components]**
+- **[Connect to API.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,10 +189,6 @@ Visual studio code, another realiable code editor or a Web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Remove a selected book]**
-- **[Add reducers and actions]**
-- **[Use Redux in React components]**
-- **[Connect to API.]**
 - **[Styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
