@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { decrement } from '../redux/books/booksSlice';
+import { removeBook } from '../redux/books/booksSlice';
 
 const BookItem = ({ id, title, author }) => {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const BookItem = ({ id, title, author }) => {
       <button
         type="button"
         onClick={() => {
-          dispatch(decrement({ id }));
+          dispatch(removeBook(id));
         }}
       >
         remove
