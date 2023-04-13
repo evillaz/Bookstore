@@ -24,4 +24,4 @@ const booksSlice = createSlice({
 });
 
 export const { increment, decrement } = booksSlice.actions;
-export default booksSlice.reducer;
+export default booksSlice;

@@ -10,4 +10,4 @@ const categoriesSlice = createSlice({
 });
 
 export const { getMessage } = categoriesSlice;
-export default categoriesSlice.reducer;
+export default categoriesSlice;
