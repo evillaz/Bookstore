@@ -25,7 +25,8 @@
     "no-shadow": "off",
     "react/jsx-no-bind": "off",
     "max-len": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "camelcase": "off"
   },
   "ignorePatterns": ["dist/", "build/","src/logic/"]
 }

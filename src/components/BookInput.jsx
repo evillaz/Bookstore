@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { increment } from '../redux/books/booksSlice';
+import { addBook } from '../redux/books/booksSlice';
 
 const BookInput = () => {
   const dispatch = useDispatch();
@@ -18,8 +18,15 @@ const BookInput = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const itemId = uuidv4();
-    dispatch(increment({ itemId, title, author }));
+    const item_id = uuidv4();
+    const category = 'fiction';
+    const bookData = {
+      item_id,
+      title,
+      author,
+      category,
+    };
+    dispatch(addBook(bookData));
     setTitle('');
     setAuthor('');
   };
