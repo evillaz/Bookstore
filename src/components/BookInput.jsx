@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/booksSlice';
+import styles from '../styles/BookInput.module.css';
 
 const BookInput = () => {
   const dispatch = useDispatch();
@@ -19,7 +20,7 @@ const BookInput = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const item_id = uuidv4();
-    const category = 'fiction';
+    const category = 'Fiction';
     const bookData = {
       item_id,
       title,
@@ -32,25 +33,30 @@ const BookInput = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        id="title"
-        type="text"
-        placeholder="Book Title"
-        value={title}
-        onChange={handleChange}
-      />
-      <input
-        id="author"
-        type="text"
-        placeholder="Author"
-        value={author}
-        onChange={handleChange}
-      />
-      <button type="submit">
-        Add Book
-      </button>
-    </form>
+    <>
+      <span className={styles.addNewBook}>ADD NEW BOOK</span>
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <input
+          className={styles.title}
+          id="title"
+          type="text"
+          placeholder="Book Title"
+          value={title}
+          onChange={handleChange}
+        />
+        <input
+          className={styles.author}
+          id="author"
+          type="text"
+          placeholder="Author"
+          value={author}
+          onChange={handleChange}
+        />
+        <button className={styles.addBook} type="submit">
+          Add Book
+        </button>
+      </form>
+    </>
   );
 };
 
