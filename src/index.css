@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.f {
+  display: flex;
+}
+
+.c {
+  flex-direction: column;
+}
+
+.r {
+  flex-direction: row;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+a.active {
+  color: black;
+  font-weight: bolder;
+}
+
+.wrapper {
+  padding: 0 6.25rem;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
+  height: 100%;
+  gap: 1.8rem;
+}
+
+.booksWrapper {
+  gap: 1rem;
+}
+
+.formWrapper {
+  gap: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+}

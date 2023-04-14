@@ -1,12 +1,15 @@
-import { useSelector } from 'react-redux';
 import BookInput from './BookInput';
 import BookList from './BookList';
 
 const BookStoreLogic = () => (
-  <div>
-    <BookList />
-    <BookInput />
-  </div>
+  <>
+    <div className="booksWrapper f c">
+      <BookList />
+    </div>
+    <div className="formWrapper f c">
+      <BookInput />
+    </div>
+  </>
 );
 
 export default BookStoreLogic;
