@@ -2,9 +2,6 @@
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.18px;
   color: #888;
 }
@@ -25,10 +22,6 @@
 .title::placeholder {
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
   color: #c4c4c4;
 }
@@ -44,10 +37,6 @@
 .author::placeholder {
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
   color: #c4c4c4;
 }
@@ -59,9 +48,6 @@
   font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
