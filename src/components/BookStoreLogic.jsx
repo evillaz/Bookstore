@@ -3,10 +3,10 @@ import BookList from './BookList';
 
 const BookStoreLogic = () => (
   <>
-    <div className="booksWrapper">
+    <div className="booksWrapper f c">
       <BookList />
     </div>
-    <div className="formWrapper">
+    <div className="formWrapper f c">
       <BookInput />
     </div>
   </>

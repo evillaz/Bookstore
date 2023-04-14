@@ -32,10 +32,12 @@ const BookInput = () => {
     setAuthor('');
   };
 
+  const formClasses = `${styles.form} f r`;
+
   return (
     <>
       <span className={styles.addNewBook}>ADD NEW BOOK</span>
-      <form className={styles.form} onSubmit={handleSubmit}>
+      <form className={formClasses} onSubmit={handleSubmit}>
         <input
           className={styles.title}
           id="title"

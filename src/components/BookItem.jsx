@@ -11,11 +11,21 @@ const BookItem = ({
   category,
 }) => {
   const dispatch = useDispatch();
+  const wrapperClasses = `${styles.wrapper} f r`;
+  const bookWrapperClasses = `${styles.bookWrapper} f r`;
+  const bookContentClasses = `${styles.bookContent} f c`;
+  const bookClasses = 'f c';
+  const buttonsClasses = `${styles.buttons} f r`;
+  const progressClasses = 'f c';
+  const progressWrapperClasses = `${styles.progressWrapper} f r`;
+  const updateWrapperClasses = `${styles.updateWrapper} f c`;
+  const currentWrapperClasses = `${styles.currentWrapper} f c`;
+
   return (
-    <li className={styles.wrapper}>
-      <div className={styles.bookWrapper}>
-        <div className={styles.bookContent}>
-          <div className={styles.book}>
+    <li className={wrapperClasses}>
+      <div className={bookWrapperClasses}>
+        <div className={bookContentClasses}>
+          <div className={bookClasses}>
             <span className={styles.category}>
               {category}
             </span>
@@ -26,7 +36,7 @@ const BookItem = ({
               {author}
             </span>
           </div>
-          <ul className={styles.buttons}>
+          <ul className={buttonsClasses}>
             <li>
               <button className={styles.button} type="button">
                 Comments
@@ -52,12 +62,12 @@ const BookItem = ({
             </li>
           </ul>
         </div>
-        <div className={styles.progressWrapper}>
+        <div className={progressWrapperClasses}>
           <MdOutlineIncompleteCircle
             fontSize="4.2rem"
             color="#379cf6"
           />
-          <div className={styles.progress}>
+          <div className={progressClasses}>
             <span className={styles.percentage}>
               80%
             </span>
@@ -67,8 +77,8 @@ const BookItem = ({
           </div>
         </div>
       </div>
-      <div className={styles.updateWrapper}>
-        <div className={styles.currentWrapper}>
+      <div className={updateWrapperClasses}>
+        <div className={currentWrapperClasses}>
           <span className={styles.currentChapter}>CURRENT CHAPTER</span>
           <span className={styles.chapter}>Chapter 3</span>
         </div>

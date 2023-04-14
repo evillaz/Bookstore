@@ -8,17 +8,21 @@ const links = [
   { path: 'categories', text: 'CATEGORIES' },
 ];
 
+const panelClasses = `${styles.panel} f r`;
+const wrapperClasses = `${styles.wrapper} f r`;
+const linkClasses = `${styles.link} f r`;
+
 const NavBar = () => (
   <>
-    <nav className={styles.panel}>
-      <ul className={styles.wrapper}>
+    <nav className={panelClasses}>
+      <ul className={wrapperClasses}>
         <li>
           <h1 className={styles.title}>Bookstore CMS</h1>
         </li>
         {links.map((link) => (
           <React.Fragment key={link.text}>
             <li
-              className={styles.link}
+              className={linkClasses}
             >
               <NavLink to={link.path}>
                 {link.text}

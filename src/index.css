@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -5,8 +9,16 @@ body {
   display: flex;
 }
 
-* {
-  margin: 0;
+.f {
+  display: flex;
+}
+
+.c {
+  flex-direction: column;
+}
+
+.r {
+  flex-direction: row;
 }
 
 #root {
@@ -22,8 +34,6 @@ a.active {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
   padding: 0 6.25rem;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
@@ -33,14 +43,10 @@ a.active {
 }
 
 .booksWrapper {
-  display: flex;
-  flex-direction: column;
   gap: 1rem;
 }
 
 .formWrapper {
-  display: flex;
-  flex-direction: column;
   gap: 1.2rem;
 }
 

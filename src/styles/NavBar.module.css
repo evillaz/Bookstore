@@ -1,5 +1,4 @@
 .panel {
-  display: flex;
   width: auto;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
   background-color: var(--white-two);
@@ -8,42 +7,32 @@
   border-bottom: solid 1px #f1f1f1;
 }
 
+.wrapper {
+  text-decoration: none;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+  gap: 2.5rem;
+}
+
 .title {
   width: max-content;
   height: 2.313rem;
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #0290ff;
   margin: 0;
 }
 
 .link {
-  display: flex;
   width: max-content;
   height: 1rem;
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
   text-decoration: none;
   cursor: pointer;
-}
-
-.wrapper {
-  display: flex;
-  text-decoration: none;
-  padding: 0;
-  list-style-type: none;
-  align-items: center;
-  gap: 2.5rem;
 }
 
 a:-webkit-any-link {

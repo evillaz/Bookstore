@@ -32,14 +32,7 @@
   color: #4386bf;
 }
 
-.book {
-  display: flex;
-  flex-direction: column;
-}
-
 .wrapper {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   gap: 3.6rem;
   padding: 2rem 9.188rem 1.625rem 1.688rem;
@@ -47,9 +40,16 @@
   background-color: #fff;
 }
 
+.bookWrapper {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bookContent {
+  gap: 1rem;
+}
+
 .buttons {
-  display: flex;
-  flex-direction: row;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -76,19 +76,6 @@
   border: solid 1px #e8e8e8;
 }
 
-.bookWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.bookContent {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .percentage {
   font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2rem;
@@ -112,14 +99,7 @@
   color: #121212;
 }
 
-.progress {
-  display: flex;
-  flex-direction: column;
-}
-
 .progressWrapper {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding-right: 5rem;
   border-right: solid 1px #e8e8e8;
@@ -127,9 +107,11 @@
   gap: 1.3rem;
 }
 
+.updateWrapper {
+  gap: 1.4rem;
+}
+
 .currentWrapper {
-  display: flex;
-  flex-direction: column;
   gap: 0.4rem;
 }
 
@@ -172,10 +154,4 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
-}
-
-.updateWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
 }
